@@ -61,7 +61,42 @@ namespace SimpleCalculator
 
         private void btnEquals_Click(object sender, EventArgs e)
         {
+            operand2 = input;
+            double num1, num2;
+            double.TryParse(operand1, out num1);
+            double.TryParse(operand2, out num2);
 
+            if (operation == '+')
+            {
+                result = num1 + num2;
+                txtScreen.Text = result.ToString();
+            }
+
+            else if (operation == '-')
+            {
+                result = num1 - num2;
+                txtScreen.Text = result.ToString();
+            }
+
+            else if (operation == '*')
+            {
+                result = num1 * num2;
+                txtScreen.Text = result.ToString();
+            }
+
+            else if (operation == '/')
+            {
+                if (num2 != 0)
+                {
+                    result = num1 / num2;
+                    txtScreen.Text = result.ToString();
+                }
+
+                else
+                {
+                    txtScreen.Text = "Can't Divide By 0!";
+                }
+            }
         }
 
         private void btnDecimal_Click(object sender, EventArgs e)
