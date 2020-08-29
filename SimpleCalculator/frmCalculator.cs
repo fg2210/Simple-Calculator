@@ -68,52 +68,72 @@ namespace SimpleCalculator
 
         private void btn7_Click(object sender, EventArgs e)
         {
+            this.txtScreen.Text = "";
             input += "7";
+            this.txtScreen.Text += input;
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
+            this.txtScreen.Text = "";
             input += "8";
+            this.txtScreen.Text += input;
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
+            this.txtScreen.Text = "";
             input += "9";
+            this.txtScreen.Text += input;
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
+            this.txtScreen.Text = "";
             input += "4";
+            this.txtScreen.Text += input;
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
+            this.txtScreen.Text = "";
             input += "5";
+            this.txtScreen.Text += input;
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
+            this.txtScreen.Text = "";
             input += "6";
+            this.txtScreen.Text += input;
         }
 
         private void btn1_Click(object sender, EventArgs e)
         {
+            this.txtScreen.Text = "";
             input += "1";
+            this.txtScreen.Text += input;
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
+            this.txtScreen.Text = "";
             input += "2";
+            this.txtScreen.Text += input;
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
+            this.txtScreen.Text = "";
             input += "3";
+            this.txtScreen.Text += input;
         }
 
         private void btn0_Click(object sender, EventArgs e)
         {
+            this.txtScreen.Text = "";
             input += "0";
+            this.txtScreen.Text += input;
         }
     }
 }
