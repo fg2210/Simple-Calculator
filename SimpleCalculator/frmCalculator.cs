@@ -30,22 +30,30 @@ namespace SimpleCalculator
 
         private void btnDivide_Click(object sender, EventArgs e)
         {
-
+            operand1 = input;
+            operation = '/';
+            input = string.Empty;
         }
 
         private void btnMultiply_Click(object sender, EventArgs e)
         {
-
+            operand1 = input;
+            operation = '*';
+            input = string.Empty;
         }
 
         private void btnSubtract_Click(object sender, EventArgs e)
         {
-
+            operand1 = input;
+            operation = '-';
+            input = string.Empty;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-
+            operand1 = input;
+            operation = '+';
+            input = string.Empty;
         }
 
         private void btnEquals_Click(object sender, EventArgs e)
