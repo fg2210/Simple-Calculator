@@ -45,6 +45,7 @@
             this.btnSubtract = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnEquals = new System.Windows.Forms.Button();
+            this.txtScreen = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn7
@@ -56,6 +57,7 @@
             this.btn7.TabIndex = 0;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = false;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
             // btn0
             // 
@@ -66,6 +68,7 @@
             this.btn0.TabIndex = 1;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = false;
+            this.btn0.Click += new System.EventHandler(this.btn0_Click);
             // 
             // btn3
             // 
@@ -76,6 +79,7 @@
             this.btn3.TabIndex = 2;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // btn2
             // 
@@ -86,6 +90,7 @@
             this.btn2.TabIndex = 3;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = false;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // button4
             // 
@@ -96,6 +101,7 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "1";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btn6
             // 
@@ -106,6 +112,7 @@
             this.btn6.TabIndex = 5;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = false;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
             // btn5
             // 
@@ -116,6 +123,7 @@
             this.btn5.TabIndex = 6;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = false;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn4
             // 
@@ -126,6 +134,7 @@
             this.btn4.TabIndex = 7;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = false;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
             // btn9
             // 
@@ -136,6 +145,7 @@
             this.btn9.TabIndex = 8;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = false;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
             // 
             // btn8
             // 
@@ -146,6 +156,7 @@
             this.btn8.TabIndex = 9;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = false;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
             // btnDecimal
             // 
@@ -156,6 +167,7 @@
             this.btnDecimal.TabIndex = 10;
             this.btnDecimal.Text = ".";
             this.btnDecimal.UseVisualStyleBackColor = false;
+            this.btnDecimal.Click += new System.EventHandler(this.btnDecimal_Click);
             // 
             // btnClear
             // 
@@ -166,6 +178,7 @@
             this.btnClear.TabIndex = 11;
             this.btnClear.Text = "C";
             this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnDivide
             // 
@@ -176,6 +189,7 @@
             this.btnDivide.TabIndex = 12;
             this.btnDivide.Text = "/";
             this.btnDivide.UseVisualStyleBackColor = false;
+            this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
             // 
             // btnMultiply
             // 
@@ -186,6 +200,7 @@
             this.btnMultiply.TabIndex = 13;
             this.btnMultiply.Text = "X";
             this.btnMultiply.UseVisualStyleBackColor = false;
+            this.btnMultiply.Click += new System.EventHandler(this.btnMultiply_Click);
             // 
             // btnSubtract
             // 
@@ -196,6 +211,7 @@
             this.btnSubtract.TabIndex = 14;
             this.btnSubtract.Text = "-";
             this.btnSubtract.UseVisualStyleBackColor = false;
+            this.btnSubtract.Click += new System.EventHandler(this.btnSubtract_Click);
             // 
             // btnAdd
             // 
@@ -206,6 +222,7 @@
             this.btnAdd.TabIndex = 15;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnEquals
             // 
@@ -216,6 +233,14 @@
             this.btnEquals.TabIndex = 16;
             this.btnEquals.Text = "=";
             this.btnEquals.UseVisualStyleBackColor = false;
+            this.btnEquals.Click += new System.EventHandler(this.btnEquals_Click);
+            // 
+            // txtScreen
+            // 
+            this.txtScreen.Location = new System.Drawing.Point(181, 70);
+            this.txtScreen.Name = "txtScreen";
+            this.txtScreen.Size = new System.Drawing.Size(218, 20);
+            this.txtScreen.TabIndex = 17;
             // 
             // frmCalculator
             // 
@@ -223,6 +248,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(624, 450);
+            this.Controls.Add(this.txtScreen);
             this.Controls.Add(this.btnEquals);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnSubtract);
@@ -243,6 +269,7 @@
             this.Name = "frmCalculator";
             this.Text = "Calculator";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -265,6 +292,7 @@
         private System.Windows.Forms.Button btnSubtract;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnEquals;
+        private System.Windows.Forms.TextBox txtScreen;
     }
 }
 
