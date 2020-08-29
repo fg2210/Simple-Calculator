@@ -60,52 +60,52 @@ namespace SimpleCalculator
 
         private void btn7_Click(object sender, EventArgs e)
         {
-
+            input += "7";
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
-
+            input += "8";
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
-
+            input += "9";
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
-
+            input += "4";
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
-
+            input += "5";
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
-
+            input += "6";
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btn1_Click(object sender, EventArgs e)
         {
-
+            input += "1";
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
-
+            input += "2";
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
-
+            input += "3";
         }
 
         private void btn0_Click(object sender, EventArgs e)
         {
-
+            input += "0";
         }
     }
 }

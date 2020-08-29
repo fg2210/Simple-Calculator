@@ -32,7 +32,7 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
             this.btn6 = new System.Windows.Forms.Button();
             this.btn5 = new System.Windows.Forms.Button();
             this.btn4 = new System.Windows.Forms.Button();
@@ -92,16 +92,16 @@
             this.btn2.UseVisualStyleBackColor = false;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
-            // button4
+            // btn1
             // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(181, 276);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(50, 50);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "1";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btn1.BackColor = System.Drawing.Color.White;
+            this.btn1.Location = new System.Drawing.Point(181, 276);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(50, 50);
+            this.btn1.TabIndex = 4;
+            this.btn1.Text = "1";
+            this.btn1.UseVisualStyleBackColor = false;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // btn6
             // 
@@ -261,7 +261,7 @@
             this.Controls.Add(this.btn4);
             this.Controls.Add(this.btn5);
             this.Controls.Add(this.btn6);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btn1);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn0);
@@ -279,7 +279,7 @@
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btn3;
         private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn6;
         private System.Windows.Forms.Button btn5;
         private System.Windows.Forms.Button btn4;

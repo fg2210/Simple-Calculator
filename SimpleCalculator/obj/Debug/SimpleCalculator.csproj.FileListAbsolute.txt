@@ -1,0 +1,5 @@
+C:\Users\fg221\source\repos\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csprojAssemblyReference.cache
+C:\Users\fg221\source\repos\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.frmCalculator.resources
+C:\Users\fg221\source\repos\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.Properties.Resources.resources
+C:\Users\fg221\source\repos\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.GenerateResource.cache
+C:\Users\fg221\source\repos\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CoreCompileInputs.cache
