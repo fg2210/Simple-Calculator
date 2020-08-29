@@ -25,7 +25,10 @@ namespace SimpleCalculator
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-
+            this.txtScreen.Text = "";
+            this.input = string.Empty;
+            this.operand1 = string.Empty;
+            this.operand2 = string.Empty;
         }
 
         private void btnDivide_Click(object sender, EventArgs e)
@@ -63,7 +66,9 @@ namespace SimpleCalculator
 
         private void btnDecimal_Click(object sender, EventArgs e)
         {
-
+            this.txtScreen.Text = "";
+            input += ".";
+            this.txtScreen.Text += input;
         }
 
         private void btn7_Click(object sender, EventArgs e)
